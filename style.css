@@ -52,12 +52,16 @@ body{
     color: hsl(245, 75%, 52%);
     font-weight: 700;
  }
-
- .Annual-text{
+.annual-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;  
+ }
+.Annual-text{
     color: hsl(223, 47%, 23%);
     font-weight: 700;
  }
- .pra{
+.pra{
     text-align: center;
     font-size: 12px;
     font-weight: 500;
