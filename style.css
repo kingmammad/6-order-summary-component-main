@@ -3,7 +3,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+.cont {
+    overflow: hidden;
+    max-width: 1440px;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    background-repeat: 1;
+    background-color: hsl(225, 100%, 98%);
+  }
+    
+   
  .box{
-    height: 1080px;
-    width: 720px;
+    height: 480px;
+    width: 280px;
+    background-color: rgb(131, 7, 7);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+ }
+ .plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    background-color: aqua;
+    padding: 12px 10px;
+    border-radius: 8px;
+ }
+ .change{
+    margin-left: 32px;
+ }
+ .annual-plan{
+    display: flex;
+    flex-direction: column;
+ }
+ .pra{
+    text-align: center;
+ }
+ .order{
+    margin-top: 26px;
+ }
+ .cancel{
+    margin-bottom: 32px;
+ }
+ a{
+    text-decoration: none;
  }
