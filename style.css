@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
 .cont {
     overflow: hidden;
     max-width: 1440px;
@@ -22,7 +25,7 @@
  .box{
     height: 480px;
     width: 280px;
-    background-color: rgb(131, 7, 7);
+    background-color: hsl(225, 100%, 98%);
     border-radius: 14px;
     overflow: hidden;
     display: flex;
@@ -30,6 +33,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.233);
     
  }
  .plan{
@@ -38,31 +42,69 @@
     justify-content: center;
     gap: 12px;
     margin-bottom: 16px;
-    background-color: aqua;
+    background-color: hsl(225, 100%, 94%);
     padding: 12px 10px;
     border-radius: 8px;
+    font-size: 12px;
  }
  .change{
     margin-left: 32px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
  }
  .annual-plan{
     display: flex;
     flex-direction: column;
+    gap: 3px;
+    
+ }
+ .Annual-text{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
  }
  .pra{
     text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 12px;
+    margin-right: 12px;
  }
  .order{
-    margin-top: 26px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 900;
+   color:  hsl(223, 47%, 23%);
  }
  .cancel{
     margin-bottom: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
  }
  a{
     text-decoration: none;
+    color: hsl(224, 23%, 55%);
  }
  .proceed{
-    background-color: blue;
-    padding: 8px 30px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 8px 52px;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.274);
 
+ }
+ p{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+ }
+ a{
+    font-weight: 500;
+ }
+.price{
+    font-weight: 500;
+
+ }
+ .text-pro{
+  color:  hsl(225, 100%, 98%); 
+  font-weight: 700;
  }
