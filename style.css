@@ -61,3 +61,8 @@
  a{
     text-decoration: none;
  }
+ .proceed{
+    background-color: blue;
+    padding: 8px 30px;
+
+ }
